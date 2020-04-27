@@ -1,9 +1,9 @@
-import React, { PropTypes, Component } from 'react'
+import React, { Component } from 'react'
 import {
     requireNativeComponent,
     View
 } from 'react-native'
-
+import PropTypes from 'prop-types';
 
 class Zxing extends Component {
     render() {
